@@ -56,17 +56,6 @@ extern BOOL showUserLoc;
     
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(searchFieldFocused) name:@"DidReceiveFocus" object:searchField];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(searchFieldUnfocused) name:NSControlTextDidEndEditingNotification object:searchField];
-    
-#ifdef __PLANITO_DEMO__
-    
-    NSMenu *menu = [NSApp mainMenu];
-    NSMenu *helpmenu = [[menu itemAtIndex:[menu numberOfItems]-1] submenu];
-    
-    [helpmenu addItem:[NSMenuItem separatorItem]];
-    
-    NSMenuItem *mi = [helpmenu addItemWithTitle:NSLocalizedString(@"purchase-planito", @"") action:@selector(purchase:) keyEquivalent:@""];
-    mi.target = self;
-#endif
 }
 
 -(void) windowDidMiniaturize:(NSNotification *)notification
@@ -208,11 +197,6 @@ extern BOOL showUserLoc;
 -(void) helpLinkHomepage: (id)sender
 {
     [[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:@"http://planitoapp.com"]];
-}
-
--(void) helpLinkFacebook: (id)sender
-{
-    [[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:@"http://facebook.com/planitoapp"]];
 }
 
 -(void) helpLinkPlacesGallery: (id)sender
@@ -525,12 +509,5 @@ extern BOOL showUserLoc;
 {
     [mapView zoomOut];
 }
-
-#ifdef __PLANITO_DEMO__
--(void) purchase: (id)sender
-{
-    [[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:@"http://itunes.apple.com/in/app/planito/id469963721?mt=12"]];    
-}
-#endif
 
 @end

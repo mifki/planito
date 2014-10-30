@@ -22,11 +22,7 @@
 #import "Helpers.h"
 #import "AddBookmarkPanelController.h"
 
-#ifdef __PLANITO_DEMO__
-#define MAXPPD 8000.0
-#else
 #define MAXPPD 400000.0
-#endif
 #define TITLE_FONT_SCALE 0.7
 #define CREDITS_FONT_SCALE 0.65
 
@@ -94,10 +90,6 @@ NSString *urlToOpen;
     gstrings = malloc(GMAX_STRINGS*sizeof(struct MAPREGION));
     
     activateFeaturesOnLeftClick = [[NSUserDefaults standardUserDefaults] boolForKey:@"ActivateFeaturesOnLeftClick"];
-    
-#ifdef __PLANITO_DEMO__
-    [NSTimer scheduledTimerWithTimeInterval:5 target:self selector:@selector(dupdate) userInfo:nil repeats:YES];
-#endif
 }
 
 -(void) loadPosition
@@ -1790,15 +1782,5 @@ static void ThreeDConnexionMessageHandler(io_connect_t connection, natural_t mes
 {
     return YES;
 }
-
-#ifdef __PLANITO_DEMO__
--(void) dupdate
-{
-	if (targetw/w_px < (1.0/MAXPPD))
-		targetw = w_px * (1.0/MAXPPD);
-    
-    zoom = YES;    
-}
-#endif
 
 @end

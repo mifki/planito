@@ -6,6 +6,21 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		584189131A0302B7001946B6 /* Package */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 584189141A0302B7001946B6 /* Build configuration list for PBXAggregateTarget "Package" */;
+			buildPhases = (
+				5841891A1A0302C1001946B6 /* ShellScript */,
+			);
+			dependencies = (
+				584189191A0302BD001946B6 /* PBXTargetDependency */,
+			);
+			name = Package;
+			productName = Package;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		58063925145F4D1000584B83 /* LayerGroups.xml in Resources */ = {isa = PBXBuildFile; fileRef = 58063927145F4D1000584B83 /* LayerGroups.xml */; };
 		5815670614BF839300DEE5B1 /* MySearchField.m in Sources */ = {isa = PBXBuildFile; fileRef = 5815670514BF839300DEE5B1 /* MySearchField.m */; };
@@ -14,7 +29,6 @@
 		5815672014C1025200DEE5B1 /* 193-location-arrow-on.png in Resources */ = {isa = PBXBuildFile; fileRef = 5815671F14C1025200DEE5B1 /* 193-location-arrow-on.png */; };
 		5815672214C11D6500DEE5B1 /* 57-download-on.png in Resources */ = {isa = PBXBuildFile; fileRef = 5815672114C11D6500DEE5B1 /* 57-download-on.png */; };
 		5815672514C121CC00DEE5B1 /* GenericXMLReverseGeocoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 5815672414C121CC00DEE5B1 /* GenericXMLReverseGeocoder.m */; };
-		5815672814C1385000DEE5B1 /* INAppStoreWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 5815672714C1385000DEE5B1 /* INAppStoreWindow.m */; };
 		5815672B14C1497D00DEE5B1 /* grid.png in Resources */ = {isa = PBXBuildFile; fileRef = 5815672914C1497B00DEE5B1 /* grid.png */; };
 		5815672C14C1497D00DEE5B1 /* grid2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5815672A14C1497C00DEE5B1 /* grid2.png */; };
 		5815672F14C1524F00DEE5B1 /* grid-on.png in Resources */ = {isa = PBXBuildFile; fileRef = 5815672D14C1524F00DEE5B1 /* grid-on.png */; };
@@ -26,6 +40,12 @@
 		5839D9D4143A4E78005614A9 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5839D9D3143A4E78005614A9 /* Security.framework */; };
 		5839D9DC143A5740005614A9 /* libcrypto.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5839D9DB143A5740005614A9 /* libcrypto.dylib */; };
 		5839D9DE143A5E08005614A9 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5839D9DD143A5E08005614A9 /* IOKit.framework */; };
+		5841890D1A0300BE001946B6 /* INAppStoreWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 584189061A0300BE001946B6 /* INAppStoreWindow.m */; };
+		5841890E1A0300BE001946B6 /* INWindowButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 584189091A0300BE001946B6 /* INWindowButton.m */; };
+		5841890F1A0300FD001946B6 /* INWindowBackgroundView+CoreUIRendering.m in Sources */ = {isa = PBXBuildFile; fileRef = 584189021A0300BE001946B6 /* INWindowBackgroundView+CoreUIRendering.m */; };
+		584189111A030121001946B6 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 584189101A030121001946B6 /* Carbon.framework */; };
+		584189121A03012E001946B6 /* INAppStoreWindowSwizzling.c in Sources */ = {isa = PBXBuildFile; fileRef = 584188FF1A0300BE001946B6 /* INAppStoreWindowSwizzling.c */; };
+		5841891C1A03036B001946B6 /* 3DconnexionClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5841891B1A03036B001946B6 /* 3DconnexionClient.framework */; };
 		5849F37B14254AB600261B69 /* PlanitoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B6490313E3522800801805 /* PlanitoAppDelegate.m */; };
 		5849F385142550B500261B69 /* BookmarkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5849F384142550B500261B69 /* BookmarkManager.m */; };
 		5849F38814266BD300261B69 /* PlanitoWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5849F38714266BD100261B69 /* PlanitoWindowController.m */; };
@@ -166,7 +186,6 @@
 		58E59D21140D5FF500C256D2 /* Defaults.plist in Resources */ = {isa = PBXBuildFile; fileRef = 58E59D20140D5FF500C256D2 /* Defaults.plist */; };
 		58ED8FE6142777A600C2ED25 /* BookmarkManagerPanelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58ED8FE5142777A600C2ED25 /* BookmarkManagerPanelController.m */; };
 		58ED8FF21428364500C2ED25 /* VCenteredTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 58ED8FF11428364500C2ED25 /* VCenteredTextFieldCell.m */; };
-		58EEBAD313EF37F1006FE860 /* 3DconnexionClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58EEBAD213EF37EE006FE860 /* 3DconnexionClient.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		58F09DC814508901007BD809 /* md5.c in Sources */ = {isa = PBXBuildFile; fileRef = 58F09DB814508901007BD809 /* md5.c */; };
 		58F09DC914508901007BD809 /* myconf.c in Sources */ = {isa = PBXBuildFile; fileRef = 58F09DBA14508901007BD809 /* myconf.c */; };
 		58F09DCA14508901007BD809 /* tcadb.c in Sources */ = {isa = PBXBuildFile; fileRef = 58F09DBC14508901007BD809 /* tcadb.c */; };
@@ -184,6 +203,16 @@
 		58F98C45140F156100948DD9 /* WFS3.xsl in Resources */ = {isa = PBXBuildFile; fileRef = 58F98C44140F156100948DD9 /* WFS3.xsl */; };
 		58FF4AF1146A17A600E8F1E8 /* KML-OG22.xsl in Resources */ = {isa = PBXBuildFile; fileRef = 58FF4AF0146A17A600E8F1E8 /* KML-OG22.xsl */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		584189181A0302BD001946B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58B648E313E3522400801805 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58B648EB13E3522700801805;
+			remoteInfo = Planito;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		5890C16D142BDD7500180180 /* CopyFiles */ = {
@@ -208,8 +237,6 @@
 		5815672114C11D6500DEE5B1 /* 57-download-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "57-download-on.png"; sourceTree = "<group>"; };
 		5815672314C121CC00DEE5B1 /* GenericXMLReverseGeocoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenericXMLReverseGeocoder.h; sourceTree = "<group>"; };
 		5815672414C121CC00DEE5B1 /* GenericXMLReverseGeocoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GenericXMLReverseGeocoder.m; sourceTree = "<group>"; };
-		5815672614C1385000DEE5B1 /* INAppStoreWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INAppStoreWindow.h; sourceTree = "<group>"; };
-		5815672714C1385000DEE5B1 /* INAppStoreWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INAppStoreWindow.m; sourceTree = "<group>"; };
 		5815672914C1497B00DEE5B1 /* grid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grid.png; sourceTree = "<group>"; };
 		5815672A14C1497C00DEE5B1 /* grid2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grid2.png; sourceTree = "<group>"; };
 		5815672D14C1524F00DEE5B1 /* grid-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "grid-on.png"; sourceTree = "<group>"; };
@@ -221,10 +248,27 @@
 		5839D9611434D6DC005614A9 /* GeocodingResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeocodingResult.h; sourceTree = "<group>"; };
 		5839D9621434D6DF005614A9 /* GeocodingResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeocodingResult.m; sourceTree = "<group>"; };
 		5839D972143A3179005614A9 /* Planito.help */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Planito.help; sourceTree = "<group>"; };
-		5839D9B2143A494E005614A9 /* prot1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = prot1.h; sourceTree = "<group>"; };
 		5839D9D3143A4E78005614A9 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		5839D9DB143A5740005614A9 /* libcrypto.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcrypto.dylib; path = usr/lib/libcrypto.dylib; sourceTree = SDKROOT; };
 		5839D9DD143A5E08005614A9 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		584188F81A02FC99001946B6 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = "zh-Hans"; path = "zh-Hans.lproj/LayerGroups.xml"; sourceTree = "<group>"; };
+		584188F91A02FCB6001946B6 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "zh-Hans"; path = "zh-Hans.lproj/AddBookmarkPanel.xib"; sourceTree = "<group>"; };
+		584188FA1A02FCC4001946B6 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "zh-Hans"; path = "zh-Hans.lproj/BookmarkManagerPanel.xib"; sourceTree = "<group>"; };
+		584188FB1A02FCD1001946B6 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "zh-Hans"; path = "zh-Hans.lproj/PreferencesPanel.xib"; sourceTree = "<group>"; };
+		584188FC1A02FCE1001946B6 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		584188FF1A0300BE001946B6 /* INAppStoreWindowSwizzling.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = INAppStoreWindowSwizzling.c; sourceTree = "<group>"; };
+		584189001A0300BE001946B6 /* INAppStoreWindowSwizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INAppStoreWindowSwizzling.h; sourceTree = "<group>"; };
+		584189011A0300BE001946B6 /* INWindowBackgroundView+CoreUIRendering.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "INWindowBackgroundView+CoreUIRendering.h"; sourceTree = "<group>"; };
+		584189021A0300BE001946B6 /* INWindowBackgroundView+CoreUIRendering.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "INWindowBackgroundView+CoreUIRendering.m"; sourceTree = "<group>"; };
+		584189031A0300BE001946B6 /* NSDocument+INAppStoreWindowFixes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDocument+INAppStoreWindowFixes.h"; sourceTree = "<group>"; };
+		584189041A0300BE001946B6 /* NSDocument+INAppStoreWindowFixes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDocument+INAppStoreWindowFixes.m"; sourceTree = "<group>"; };
+		584189051A0300BE001946B6 /* INAppStoreWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INAppStoreWindow.h; sourceTree = "<group>"; };
+		584189061A0300BE001946B6 /* INAppStoreWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INAppStoreWindow.m; sourceTree = "<group>"; };
+		584189071A0300BE001946B6 /* INAppStoreWindowCompatibility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INAppStoreWindowCompatibility.h; sourceTree = "<group>"; };
+		584189081A0300BE001946B6 /* INWindowButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INWindowButton.h; sourceTree = "<group>"; };
+		584189091A0300BE001946B6 /* INWindowButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INWindowButton.m; sourceTree = "<group>"; };
+		584189101A030121001946B6 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+		5841891B1A03036B001946B6 /* 3DconnexionClient.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = 3DconnexionClient.framework; path = Planito/3DconnexionClient.framework; sourceTree = "<group>"; };
 		5849F383142550B500261B69 /* BookmarkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookmarkManager.h; sourceTree = "<group>"; };
 		5849F384142550B500261B69 /* BookmarkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookmarkManager.m; sourceTree = "<group>"; };
 		5849F38614266BCF00261B69 /* PlanitoWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlanitoWindowController.h; sourceTree = "<group>"; };
@@ -358,11 +402,6 @@
 		5885224F145CB76C009F6444 /* ru */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ru; path = ru.lproj/AddBookmarkPanel.xib; sourceTree = "<group>"; };
 		58852253145CBB10009F6444 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		58852255145CBB15009F6444 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
-		588BA9AC14940EF700266771 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "zh-Hans"; path = "/Users/vit/Development/Projects/Planito/Planito/zh-Hans.lproj/PreferencesPanel.xib"; sourceTree = "<absolute>"; };
-		588BA9AF14940EF700266771 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "zh-Hans"; path = "/Users/vit/Development/Projects/Planito/Planito/zh-Hans.lproj/AddBookmarkPanel.xib"; sourceTree = "<absolute>"; };
-		588BA9B014940EF700266771 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "/Users/vit/Development/Projects/Planito/Planito/zh-Hans.lproj/Localizable.strings"; sourceTree = "<absolute>"; };
-		588BA9B214940EF700266771 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = "zh-Hans"; path = "/Users/vit/Development/Projects/Planito/Planito/zh-Hans.lproj/LayerGroups.xml"; sourceTree = "<absolute>"; };
-		588BA9B514940EF700266771 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "zh-Hans"; path = "/Users/vit/Development/Projects/Planito/Planito/zh-Hans.lproj/BookmarkManagerPanel.xib"; sourceTree = "<absolute>"; };
 		588BA9B71496B83700266771 /* JSONPlacemarksTileProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONPlacemarksTileProvider.h; sourceTree = "<group>"; };
 		588BA9B81496B83900266771 /* JSONPlacemarksTileProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONPlacemarksTileProvider.m; sourceTree = "<group>"; };
 		588C3A3C14BCF8D2006F488D /* GenericXMLGeocoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenericXMLGeocoder.h; sourceTree = "<group>"; };
@@ -476,7 +515,6 @@
 		58ED8FE5142777A600C2ED25 /* BookmarkManagerPanelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookmarkManagerPanelController.m; sourceTree = "<group>"; };
 		58ED8FF01428364500C2ED25 /* VCenteredTextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCenteredTextFieldCell.h; sourceTree = "<group>"; };
 		58ED8FF11428364500C2ED25 /* VCenteredTextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCenteredTextFieldCell.m; sourceTree = "<group>"; };
-		58EEBAD213EF37EE006FE860 /* 3DconnexionClient.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = 3DconnexionClient.framework; path = Library/Frameworks/3DconnexionClient.framework; sourceTree = SDKROOT; };
 		58F09DB814508901007BD809 /* md5.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = md5.c; sourceTree = "<group>"; };
 		58F09DB914508901007BD809 /* md5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = md5.h; sourceTree = "<group>"; };
 		58F09DBA14508901007BD809 /* myconf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = myconf.c; sourceTree = "<group>"; };
@@ -500,7 +538,6 @@
 		58F8068113EAAE2D00F60F7F /* FeaturesLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeaturesLayer.m; sourceTree = "<group>"; };
 		58F8068213EAAE2D00F60F7F /* FeaturesTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeaturesTile.h; sourceTree = "<group>"; };
 		58F8068313EAAE2D00F60F7F /* FeaturesTile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeaturesTile.m; sourceTree = "<group>"; };
-		58F82FC914CE2A620081CA02 /* prot2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = prot2.h; sourceTree = "<group>"; };
 		58F98C3F140EEFF500948DD9 /* defaultpmicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = defaultpmicon.png; sourceTree = "<group>"; };
 		58F98C41140F06D300948DD9 /* XMLPlacemarksTileProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLPlacemarksTileProvider.h; sourceTree = "<group>"; };
 		58F98C42140F06D400948DD9 /* XMLPlacemarksTileProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLPlacemarksTileProvider.m; sourceTree = "<group>"; };
@@ -513,15 +550,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				584189111A030121001946B6 /* Carbon.framework in Frameworks */,
 				58CE0CF91497B4A500A4856F /* QuartzCore.framework in Frameworks */,
 				5839D9DE143A5E08005614A9 /* IOKit.framework in Frameworks */,
 				5839D9DC143A5740005614A9 /* libcrypto.dylib in Frameworks */,
 				5839D9D4143A4E78005614A9 /* Security.framework in Frameworks */,
 				587642E6141E2FDA007DC58C /* CoreLocation.framework in Frameworks */,
-				58EEBAD313EF37F1006FE860 /* 3DconnexionClient.framework in Frameworks */,
 				586CC1DC13EB73FD005964B0 /* WebKit.framework in Frameworks */,
 				586CC1D713EB1DE6005964B0 /* libz.dylib in Frameworks */,
 				586CC1D413EB1C7C005964B0 /* OpenGL.framework in Frameworks */,
+				5841891C1A03036B001946B6 /* 3DconnexionClient.framework in Frameworks */,
 				58B648F113E3522800801805 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -629,13 +667,30 @@
 			name = "Tile Downloader";
 			sourceTree = "<group>";
 		};
-		5839D976143A494E005614A9 /* prot */ = {
+		584188FD1A0300BE001946B6 /* INAppStoreWindow */ = {
 			isa = PBXGroup;
 			children = (
-				5839D9B2143A494E005614A9 /* prot1.h */,
-				58F82FC914CE2A620081CA02 /* prot2.h */,
+				584188FE1A0300BE001946B6 /* Extensions */,
+				584189051A0300BE001946B6 /* INAppStoreWindow.h */,
+				584189061A0300BE001946B6 /* INAppStoreWindow.m */,
+				584189071A0300BE001946B6 /* INAppStoreWindowCompatibility.h */,
+				584189081A0300BE001946B6 /* INWindowButton.h */,
+				584189091A0300BE001946B6 /* INWindowButton.m */,
 			);
-			path = prot;
+			path = INAppStoreWindow;
+			sourceTree = "<group>";
+		};
+		584188FE1A0300BE001946B6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				584188FF1A0300BE001946B6 /* INAppStoreWindowSwizzling.c */,
+				584189001A0300BE001946B6 /* INAppStoreWindowSwizzling.h */,
+				584189011A0300BE001946B6 /* INWindowBackgroundView+CoreUIRendering.h */,
+				584189021A0300BE001946B6 /* INWindowBackgroundView+CoreUIRendering.m */,
+				584189031A0300BE001946B6 /* NSDocument+INAppStoreWindowFixes.h */,
+				584189041A0300BE001946B6 /* NSDocument+INAppStoreWindowFixes.m */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		5849F37E14254DFD00261B69 /* Bookmarks */ = {
@@ -650,6 +705,7 @@
 		5849F37F14254E1500261B69 /* Third-Party */ = {
 			isa = PBXGroup;
 			children = (
+				584188FD1A0300BE001946B6 /* INAppStoreWindow */,
 				5861930E14510587004F30C7 /* minizip */,
 				58F09DB714508901007BD809 /* tokyo */,
 				587BA1DA142286D500C70CAE /* fribidi */,
@@ -678,8 +734,6 @@
 				58ED8FF11428364500C2ED25 /* VCenteredTextFieldCell.m */,
 				5815670414BF839300DEE5B1 /* MySearchField.h */,
 				5815670514BF839300DEE5B1 /* MySearchField.m */,
-				5815672614C1385000DEE5B1 /* INAppStoreWindow.h */,
-				5815672714C1385000DEE5B1 /* INAppStoreWindow.m */,
 			);
 			name = Components;
 			sourceTree = "<group>";
@@ -899,6 +953,7 @@
 		58B648EF13E3522700801805 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				584189101A030121001946B6 /* Carbon.framework */,
 				58B648F013E3522800801805 /* Cocoa.framework */,
 				58B648F213E3522800801805 /* Other Frameworks */,
 			);
@@ -908,13 +963,13 @@
 		58B648F213E3522800801805 /* Other Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5841891B1A03036B001946B6 /* 3DconnexionClient.framework */,
 				58CE0CF81497B4A500A4856F /* QuartzCore.framework */,
 				5839D9DD143A5E08005614A9 /* IOKit.framework */,
 				5839D9DB143A5740005614A9 /* libcrypto.dylib */,
 				5839D9D3143A4E78005614A9 /* Security.framework */,
 				587642E5141E2FD2007DC58C /* CoreLocation.framework */,
 				586CC1D613EB1DE6005964B0 /* libz.dylib */,
-				58EEBAD213EF37EE006FE860 /* 3DconnexionClient.framework */,
 				586CC1DB13EB73FD005964B0 /* WebKit.framework */,
 				586CC1D313EB1C7C005964B0 /* OpenGL.framework */,
 				58B648F313E3522800801805 /* AppKit.framework */,
@@ -927,7 +982,6 @@
 		58B648F613E3522800801805 /* Planito */ = {
 			isa = PBXGroup;
 			children = (
-				5839D976143A494E005614A9 /* prot */,
 				5849F37F14254E1500261B69 /* Third-Party */,
 				5849F37E14254DFD00261B69 /* Bookmarks */,
 				58016D681409091700AB9829 /* Core */,
@@ -1044,8 +1098,13 @@
 		58B648E313E3522400801805 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0420;
+				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = mifki;
+				TargetAttributes = {
+					584189131A0302B7001946B6 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
 			};
 			buildConfigurationList = 58B648E613E3522400801805 /* Build configuration list for PBXProject "Planito" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -1054,7 +1113,6 @@
 			knownRegions = (
 				en,
 				ru,
-				"zh-Hans-CN",
 				"zh-Hans",
 			);
 			mainGroup = 58B648E113E3522300801805;
@@ -1063,6 +1121,7 @@
 			projectRoot = "";
 			targets = (
 				58B648EB13E3522700801805 /* Planito */,
+				584189131A0302B7001946B6 /* Package */,
 			);
 		};
 /* End PBXProject section */
@@ -1131,16 +1190,34 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5841891A1A0302C1001946B6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd \"${PROJECT_DIR}\"\n\nmkdir dmg\n\ncp -R \"${TARGET_BUILD_DIR}/Planito.app\" \"dmg\"\ncp *.webloc \"dmg\"\nSetFile -a E dmg/*.webloc\n                 \nstrip \"dmg/Planito.app/Contents/MacOS/Planito\"\n                 \nVER=`/usr/libexec/PlistBuddy -c \"Print :CFBundleShortVersionString\" \"dmg/Planito.app/Contents/Info.plist\"`\n                 \n#Now build DMG\n                 \nhdiutil detach \"/Volumes/Planito\"\nrm -f \"Planito-$VER.dmg\"\nhdiutil create \"Planito-$VER.dmg\" -ov -volname \"Planito\" -fs HFS+ -srcfolder \"dmg\"\nhdiutil attach \"Planito-$VER.dmg\"\nbless \"/Volumes/Planito\" --openfolder \"/Volumes/Planito\"\nhdiutil detach \"/Volumes/Planito\"\n                 \nrm -rf \"dmg\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		58B648E813E3522700801805 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				58B648FD13E3522800801805 /* main.m in Sources */,
+				584189121A03012E001946B6 /* INAppStoreWindowSwizzling.c in Sources */,
 				586C5BBD13E93A87008D6F12 /* Font.m in Sources */,
 				586C5BC113E93A8E008D6F12 /* FontManager.m in Sources */,
 				586C5BC613E93A99008D6F12 /* Layer.m in Sources */,
 				586C5BC713E93A99008D6F12 /* LayerSet.m in Sources */,
+				5841890D1A0300BE001946B6 /* INAppStoreWindow.m in Sources */,
 				586C5BD413E93AD1008D6F12 /* Helpers.m in Sources */,
 				586C5BD613E93AD1008D6F12 /* QuadTile.m in Sources */,
 				586C5BD713E93AD1008D6F12 /* QuadTileLayer.m in Sources */,
@@ -1149,11 +1226,13 @@
 				586C5BFF13E94136008D6F12 /* MapView.m in Sources */,
 				58F8068613EAAE2E00F60F7F /* FeaturesLayer.m in Sources */,
 				58F8068713EAAE2E00F60F7F /* FeaturesTile.m in Sources */,
+				5841890E1A0300BE001946B6 /* INWindowButton.m in Sources */,
 				586CC1DA13EB7342005964B0 /* LayersPanelController.m in Sources */,
 				5856D6C213F05D330019A905 /* BasicTileProvider.m in Sources */,
 				5856D6D913F0B8780019A905 /* MyCheckboxCell.m in Sources */,
 				581ED36513F315DE00FE60D7 /* WMSTileProvider.m in Sources */,
 				58E59D1F140D156600C256D2 /* World.m in Sources */,
+				5841890F1A0300FD001946B6 /* INWindowBackgroundView+CoreUIRendering.m in Sources */,
 				58F98C43140F06D500948DD9 /* XMLPlacemarksTileProvider.m in Sources */,
 				58DAA8581410F25000C04C4A /* Tile.m in Sources */,
 				58DAA85C1410FCD500C04C4A /* RemoteTileProvider.m in Sources */,
@@ -1247,11 +1326,18 @@
 				588C3A4014BDD34B006F488D /* Geocoder.m in Sources */,
 				5815670614BF839300DEE5B1 /* MySearchField.m in Sources */,
 				5815672514C121CC00DEE5B1 /* GenericXMLReverseGeocoder.m in Sources */,
-				5815672814C1385000DEE5B1 /* INAppStoreWindow.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		584189191A0302BD001946B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58B648EB13E3522700801805 /* Planito */;
+			targetProxy = 584189181A0302BD001946B6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		58063927145F4D1000584B83 /* LayerGroups.xml */ = {
@@ -1259,7 +1345,7 @@
 			children = (
 				58063926145F4D1000584B83 /* en */,
 				58063928145F4D1400584B83 /* ru */,
-				588BA9B214940EF700266771 /* zh-Hans */,
+				584188F81A02FC99001946B6 /* zh-Hans */,
 			);
 			name = LayerGroups.xml;
 			sourceTree = "<group>";
@@ -1279,7 +1365,7 @@
 			children = (
 				58852235145CB3F3009F6444 /* en */,
 				58852237145CB403009F6444 /* ru */,
-				588BA9B514940EF700266771 /* zh-Hans */,
+				584188FA1A02FCC4001946B6 /* zh-Hans */,
 			);
 			name = BookmarkManagerPanel.xib;
 			sourceTree = "<group>";
@@ -1319,7 +1405,7 @@
 			children = (
 				58852249145CB5FE009F6444 /* en */,
 				5885224B145CB605009F6444 /* ru */,
-				588BA9AC14940EF700266771 /* zh-Hans */,
+				584188FB1A02FCD1001946B6 /* zh-Hans */,
 			);
 			name = PreferencesPanel.xib;
 			sourceTree = "<group>";
@@ -1329,7 +1415,7 @@
 			children = (
 				5885224D145CB768009F6444 /* en */,
 				5885224F145CB76C009F6444 /* ru */,
-				588BA9AF14940EF700266771 /* zh-Hans */,
+				584188F91A02FCB6001946B6 /* zh-Hans */,
 			);
 			name = AddBookmarkPanel.xib;
 			sourceTree = "<group>";
@@ -1339,7 +1425,7 @@
 			children = (
 				58852253145CBB10009F6444 /* en */,
 				58852255145CBB15009F6444 /* ru */,
-				588BA9B014940EF700266771 /* zh-Hans */,
+				584188FC1A02FCE1001946B6 /* zh-Hans */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -1373,12 +1459,32 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		584189151A0302B7001946B6 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Development;
+		};
+		584189161A0302B7001946B6 /* Demo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Demo;
+		};
+		584189171A0302B7001946B6 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Distribution;
+		};
 		58AB7BF214CCF10F00EAE9B7 /* Distribution */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
-				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
+				ARCHS = "$(ARCHS_STANDARD)";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEPLOYMENT_POSTPROCESSING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -1386,13 +1492,11 @@
 				GCC_ENABLE_SSE3_EXTENSIONS = YES;
 				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
 				GCC_OPTIMIZATION_LEVEL = 3;
-				GCC_PREPROCESSOR_DEFINITIONS = __PLANITO_PROT__;
 				GCC_VERSION = "";
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
-				PROVISIONING_PROFILE = "";
 				SDKROOT = macosx;
 				SEPARATE_STRIP = YES;
 			};
@@ -1402,6 +1506,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Planito",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Planito/Planito-Prefix.pch";
 				INFOPLIST_FILE = "Planito/Planito-Info.plist";
@@ -1417,7 +1527,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD)";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEPLOYMENT_POSTPROCESSING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -1425,7 +1535,6 @@
 				GCC_ENABLE_SSE3_EXTENSIONS = YES;
 				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
 				GCC_OPTIMIZATION_LEVEL = 3;
-				GCC_PREPROCESSOR_DEFINITIONS = __PLANITO_DEMO__;
 				GCC_VERSION = "";
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -1440,7 +1549,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
-				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Planito",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Planito/Planito-Prefix.pch";
 				INFOPLIST_FILE = "Planito/Planito-Info.plist";
@@ -1448,7 +1562,6 @@
 				PLANITO_DATASOURCE = "http://ds.planitoapp.com/_datasource_demo-{LANG}.xml.gz";
 				PLIST_FILE_OUTPUT_FORMAT = binary;
 				PRODUCT_NAME = "$(TARGET_NAME) Demo";
-				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Demo;
@@ -1457,7 +1570,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -1479,6 +1592,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Planito",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Planito/Planito-Prefix.pch";
 				INFOPLIST_FILE = "Planito/Planito-Info.plist";
@@ -1493,6 +1612,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		584189141A0302B7001946B6 /* Build configuration list for PBXAggregateTarget "Package" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				584189151A0302B7001946B6 /* Development */,
+				584189161A0302B7001946B6 /* Demo */,
+				584189171A0302B7001946B6 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		58B648E613E3522400801805 /* Build configuration list for PBXProject "Planito" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

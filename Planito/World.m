@@ -15,9 +15,6 @@
 #import "QuadTileLayer.h"
 #import "FeaturesLayer.h"
 #import "Font.h"
-#ifdef __PLANITO_PROT__
-#import "prot1.h"
-#endif
 
 static id createInstanceFromXML (NSXMLElement *xobj, NSString *baseurl)
 {
@@ -97,13 +94,6 @@ static id createInstanceFromXML (NSXMLElement *xobj, NSString *baseurl)
     NSXMLDocument *xworld = [[NSXMLDocument alloc] initWithXMLString:_configXML options:0 error:NULL];
     NSXMLElement *xroot = [xworld rootElement];
     
-#ifdef __PLANITO_PROT__
-    int kk;
-    
-    if (!CHECK_PROT(&kk))
-        return;
-#endif
-
     //Create layers
     NSMutableSet *ids = [NSMutableSet set];
     for (NSXMLElement *xgroup in [xroot elementsForName:@"LayerGroup"])
@@ -146,13 +136,6 @@ static id createInstanceFromXML (NSXMLElement *xobj, NSString *baseurl)
         NSXMLElement *xrevgeocoder = [[xroot elementsForName:@"ReverseGeocoder"] lastObject];
         reverseGeocoder = createInstanceFromXML(xrevgeocoder, _datasourceURL);
     }
-    
-#ifdef __PLANITO_PROT__
-    if (kk != PROT_CONST)
-    {
-        [(id)((char*)xworld-100) release];
-    }
-#endif
     
     //Create "View In" items
     {

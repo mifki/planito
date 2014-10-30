@@ -60,7 +60,6 @@
 
 //Help menu links
 -(IBAction) helpLinkHomepage: (id)sender;
--(IBAction) helpLinkFacebook: (id)sender;
 -(IBAction) helpLinkPlacesGallery: (id)sender;
 
 -(IBAction) worldAndLayersBtnClick: (NSSegmentedControl*)sender;

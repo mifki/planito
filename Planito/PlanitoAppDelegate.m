@@ -109,22 +109,7 @@ static int dsdlstep;
     //dl = [[Downloader alloc] initWithURLString:datasourceURL delegate:self];
     
     NSString *datasourceURL = [[NSBundle mainBundle] objectForInfoDictionaryKey: @"DataSource"];
-    
-#ifdef __PLANITO_DEMO__
-    char a[4];
-    a[1] = 4;
-    a[0] = 12;
-    a[2] = 3;
-    a[3] = 14;
-    for (int i = 0; i < 4; i++)
-        a[i]+='a';
-    if ([datasourceURL rangeOfString:[NSString stringWithFormat:@"%c%c%c%c", a[2],a[1],a[0],a[3]]].location == NSNotFound)
-    {
-        exit(0);
-        [datasourceURL release];
-    }
-#endif
-    
+        
     NSString *lang = [[NSLocale preferredLanguages] objectAtIndex:0];
     NSString *country = [[NSLocale currentLocale] objectForKey:NSLocaleCountryCode];
     
