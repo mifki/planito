@@ -1,0 +1,39 @@
+/* 
+  Localizable.strings
+  Planito
+
+  Created by Vitaliy Pronkin on 30.10.11.
+  Copyright (c) 2011 mifki. All rights reserved.
+*/
+
+"offline-in-title" = "автономный режим";
+
+
+"update-required" = "Необходимо обновление";
+"update-required-full" = "Основной источник данных требует более новую версию приложения. Новые слои и другие функции не будут доступны, пока вы не обновите Planito.";
+
+"main-ds-unavailable" = "Основной источник данных недоступен";
+"main-ds-unavailable-full" = "Конфигурация основного источника данных не может быть загружена с сервера, и нет локальной копии. Работа не может быть продолжена.";
+
+
+"favorites-menu" = "Меню избранного";
+
+"add-view-to" = "Добавить текущий вид в:";
+"add-feature-to" = "Добавить выделенный объект в:";
+"add-location-to" = "Добавить указанную локацию в:";
+
+
+"total-tiles-to-cache" = "Всего тайлов для кэширования: ";
+"too-many" = "слишком много";
+
+
+"m" = "м";
+"km" = "км";
+
+"mi" = "мил.";
+"ft" = "фт.";
+
+
+"view-in" = "Открыть в %@";
+
+"purchase-planito" = "Купить Planito в Mac App Store";

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root ShowOne="1">
+	<style id="panoramio" icon="panoramio.png" />
+	<level>3</level>
+	<level r="1">6</level>
+	<level r="1">12</level>
+	<level r="1">24</level>
+	<level r="1">48</level>
+	<level r="1">96</level>
+	<level r="1">192</level>
+	<level r="1">384</level>
+	<level r="1">768</level>
+	<level r="1">1536</level>
+	<level r="1">3072</level>
+	<level r="1">6144</level>
+	<level r="1">12288</level>
+</root>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="512px" height="512px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
+<g opacity="0.1">
+	<circle fill="#00B2FF" cx="256" cy="256" r="248"/>
+</g>
+<g>
+	<path fill="#F5FCFF" d="M256,480c-59.833,0-116.084-23.3-158.392-65.608C55.3,372.084,32,315.833,32,256
+		S55.3,139.916,97.608,97.607C139.916,55.3,196.167,32,256,32s116.084,23.3,158.393,65.608C456.7,139.916,480,196.167,480,256
+		s-23.3,116.084-65.607,158.392C372.084,456.7,315.833,480,256,480z"/>
+	<path fill="#00B2FF" d="M256,40c29.167,0,57.453,5.709,84.072,16.968c25.72,10.878,48.821,26.455,68.663,46.297
+		c19.842,19.842,35.419,42.944,46.297,68.663C466.291,198.547,472,226.833,472,256s-5.709,57.453-16.968,84.072
+		c-10.878,25.719-26.455,48.82-46.297,68.663c-19.842,19.842-42.943,35.419-68.663,46.297C313.453,466.291,285.167,472,256,472
+		s-57.453-5.709-84.072-16.968c-25.719-10.878-48.821-26.455-68.663-46.297c-19.842-19.843-35.418-42.944-46.297-68.663
+		C45.709,313.453,40,285.167,40,256s5.709-57.453,16.968-84.072c10.878-25.72,26.455-48.821,46.297-68.663
+		c19.842-19.842,42.944-35.419,68.663-46.297C198.547,45.708,226.833,40,256,40 M256,24C127.87,24,24,127.869,24,256
+		c0,128.13,103.87,232,232,232c128.131,0,232-103.87,232-232C488,127.869,384.131,24,256,24L256,24z"/>
+</g>
+<g>
+	<defs>
+		<circle id="XMLID_1_" cx="256" cy="256" r="208"/>
+	</defs>
+	<clipPath id="XMLID_3_">
+		<use xlink:href="#XMLID_1_"  overflow="visible"/>
+	</clipPath>
+	<rect y="334" clip-path="url(#XMLID_3_)" fill="#00B2FF" width="66" height="66"/>
+	<rect x="74" y="334" clip-path="url(#XMLID_3_)" fill="#00B2FF" width="66" height="66"/>
+	<rect x="148" y="334" clip-path="url(#XMLID_3_)" fill="#00B2FF" width="68" height="66"/>
+	<rect x="222" y="334" clip-path="url(#XMLID_3_)" fill="#00B2FF" width="68" height="66"/>
+	<rect x="296" y="334" clip-path="url(#XMLID_3_)" fill="#00B2FF" width="68" height="66"/>
+	<rect x="372" y="334" clip-path="url(#XMLID_3_)" fill="#00B2FF" width="66" height="66"/>
+	<rect x="446" y="334" clip-path="url(#XMLID_3_)" fill="#00B2FF" width="66" height="66"/>
+	<rect y="260" clip-path="url(#XMLID_3_)" fill="#00B2FF" width="66" height="66"/>
+	<rect x="74" y="260" clip-path="url(#XMLID_3_)" fill="#00B2FF" width="66" height="66"/>
+	<rect x="148" y="260" clip-path="url(#XMLID_3_)" fill="#00B2FF" width="68" height="66"/>
+	<rect x="222" y="260" clip-path="url(#XMLID_3_)" fill="#00B2FF" width="68" height="66"/>
+	<rect x="296" y="260" clip-path="url(#XMLID_3_)" fill="#00B2FF" width="68" height="66"/>
+	<rect x="372" y="260" clip-path="url(#XMLID_3_)" fill="#00B2FF" width="66" height="66"/>
+	<rect x="446" y="260" clip-path="url(#XMLID_3_)" fill="#00B2FF" width="66" height="66"/>
+	<rect y="186" clip-path="url(#XMLID_3_)" fill="#00B2FF" width="66" height="66"/>
+	<rect x="74" y="186" clip-path="url(#XMLID_3_)" fill="#00B2FF" width="66" height="66"/>
+	<rect x="148" y="186" clip-path="url(#XMLID_3_)" fill="#00B2FF" width="68" height="66"/>
+	<rect x="222" y="186" clip-path="url(#XMLID_3_)" fill="#00B2FF" width="68" height="66"/>
+	<rect x="296" y="186" clip-path="url(#XMLID_3_)" fill="#00B2FF" width="68" height="66"/>
+	<rect x="372" y="186" clip-path="url(#XMLID_3_)" fill="#00B2FF" width="66" height="66"/>
+	<rect x="446" y="186" clip-path="url(#XMLID_3_)" fill="#00B2FF" width="66" height="66"/>
+	<rect y="112" clip-path="url(#XMLID_3_)" fill="#00B2FF" width="66" height="66"/>
+	<rect x="74" y="112" clip-path="url(#XMLID_3_)" fill="#00B2FF" width="66" height="66"/>
+	<rect x="148" y="112" clip-path="url(#XMLID_3_)" fill="#00B2FF" width="68" height="66"/>
+	<rect x="222" y="112" clip-path="url(#XMLID_3_)" fill="#00B2FF" width="68" height="66"/>
+	<rect x="296" y="112" clip-path="url(#XMLID_3_)" fill="#00B2FF" width="68" height="66"/>
+	<rect x="372" y="112" clip-path="url(#XMLID_3_)" fill="#00B2FF" width="66" height="66"/>
+	<rect x="446" y="112" clip-path="url(#XMLID_3_)" fill="#00B2FF" width="66" height="66"/>
+	<rect y="36" clip-path="url(#XMLID_3_)" fill="#00B2FF" width="66" height="68"/>
+	<rect x="74" y="36" clip-path="url(#XMLID_3_)" fill="#00B2FF" width="66" height="68"/>
+	<rect x="148" y="36" clip-path="url(#XMLID_3_)" fill="#00B2FF" width="68" height="68"/>
+	<rect x="222" y="36" clip-path="url(#XMLID_3_)" fill="#00B2FF" width="68" height="68"/>
+	<rect x="296" y="36" clip-path="url(#XMLID_3_)" fill="#00B2FF" width="68" height="68"/>
+	<rect x="372" y="36" clip-path="url(#XMLID_3_)" fill="#00B2FF" width="66" height="68"/>
+	<rect x="446" y="36" clip-path="url(#XMLID_3_)" fill="#00B2FF" width="66" height="68"/>
+	<rect y="408" clip-path="url(#XMLID_3_)" fill="#00B2FF" width="66" height="68"/>
+	<rect x="74" y="408" clip-path="url(#XMLID_3_)" fill="#00B2FF" width="66" height="68"/>
+	<rect x="148" y="408" clip-path="url(#XMLID_3_)" fill="#00B2FF" width="68" height="68"/>
+	<rect x="222" y="408" clip-path="url(#XMLID_3_)" fill="#00B2FF" width="68" height="68"/>
+	<rect x="296" y="408" clip-path="url(#XMLID_3_)" fill="#00B2FF" width="68" height="68"/>
+	<rect x="372" y="408" clip-path="url(#XMLID_3_)" fill="#00B2FF" width="66" height="68"/>
+	<rect x="446" y="408" clip-path="url(#XMLID_3_)" fill="#00B2FF" width="66" height="68"/>
+</g>
+</svg>

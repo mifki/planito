@@ -1,0 +1,39 @@
+/* 
+  Localizable.strings - Chinese Simplified
+  Planito
+
+  Created by Vitaliy Pronkin on 30.10.11.
+  Copyright (c) 2011 mifki. All rights reserved.
+*/
+
+"offline-in-title" = "脱机";
+
+
+"update-required" = "需要更新";
+"update-required-full" = "主要数据源需要较新的应用版本。您需要更新Planito才能使用新建图层和其他功能。";
+
+"main-ds-unavailable" = "主数据源不可用";
+"main-ds-unavailable-full" = "无法从服务器加载主数据源，没有可用的缓存版本。Planito 无法继续。";
+
+
+"favorites-menu" = "收藏夹菜单";
+
+"add-view-to" = "当前视图添加到：";
+"add-feature-to" = "所选功能添加到：";
+"add-location-to" = "选定位置添加到：";
+
+
+"total-tiles-to-cache" = "要缓存的图块数量：";
+"too-many" = "过多";
+
+
+"m" = "米";
+"km" = "公里";
+
+"mi" = "英里";
+"ft" = "英尺";
+
+
+"view-in" = "在“%@”中查看";
+
+"purchase-planito" = "Planito上的Mac App Store";

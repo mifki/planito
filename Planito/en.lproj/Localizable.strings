@@ -1,0 +1,39 @@
+/* 
+  Localizable.strings
+  Planito
+
+  Created by Vitaliy Pronkin on 30.10.11.
+  Copyright (c) 2011 mifki. All rights reserved.
+*/
+
+"offline-in-title" = "Offline";
+
+
+"update-required" = "Update required";
+"update-required-full" = "Main data source requires newer application version. You will not have access to new layers and other features until Planito is updated.";
+
+"main-ds-unavailable" = "Main data source unavailable";
+"main-ds-unavailable-full" = "Main data source configuration couldn't be loaded from server and no cached version available. Planito can not continue.";
+
+
+"favorites-menu" = "Favorites Menu";
+
+"add-view-to" = "Add current view to:";
+"add-feature-to" = "Add selected feature to:";
+"add-location-to" = "Add selected location to:";
+
+
+"total-tiles-to-cache" = "Total tiles to cache: ";
+"too-many" = "too many";
+
+
+"m" = "m";
+"km" = "km";
+
+"mi" = "mi";
+"ft" = "ft";
+
+
+"view-in" = "View in %@";
+
+"purchase-planito" = "Purchase Planito from The Mac App Store";

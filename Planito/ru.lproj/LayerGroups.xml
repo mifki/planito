@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <LayerGroup Name="Спутниковые снимки" Id="aerial" />
+    <LayerGroup Name="Карты" Id="maps" />
+    <LayerGroup Name="Границы и метки" Id="borders_labels" />
+    <LayerGroup Name="Данные" Id="data" />
+    <LayerGroup Name="POI" Id="poi" />
+</root>

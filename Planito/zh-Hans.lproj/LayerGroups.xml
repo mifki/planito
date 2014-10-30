@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <LayerGroup Name="航拍" Id="aerial" />
+    <LayerGroup Name="地图" Id="maps" />
+    <LayerGroup Name="边界和地名" Id="borders_labels" />
+    <LayerGroup Name="数据" Id="data" />
+    <LayerGroup Name="景点" Id="poi" /> <!-- ? -->
+</root>

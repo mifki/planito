@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html>
+	<head>
+		<title>Current Weather Layer Does Not Show</title>
+        
+        <link rel="stylesheet" type="text/css" href="../css/stylesheet.css" />
+    </head>
+	<body>
+	    <h2>Current Weather Layer Does Not Show</h2>
+
+        <p>By default Planito accesses certain data sources with one username for all application users. Because of this, usage limits may be hit and some layers fail to load.</p>
+        
+        <p>To completely solve this problem for Current Weather layer, perform the following steps:</p>
+        <ol>
+            <li>Go to <a href="http://geonames.org">http://geonames.org</a> and register free account</li>
+            <li>On your account page enable your account to access the web service</li>
+            <li>Open Terminal and execute <i>defaults write com.mifki.Planito GeoNamesUser your_geonames_username</i></li>
+        </ol>
+        
+        <p>It's recommended to do this even if you do not currently experience problems with Current Weather layer.</p>
+	</body>
+</html>

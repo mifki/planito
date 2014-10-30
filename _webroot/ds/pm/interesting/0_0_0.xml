@@ -1,0 +1,114 @@
+<?xml version="1.0"?>
+<features>
+        <pm c="-21.805283,-49.089858"><t>Man-shaped lake</t></pm>
+        <pm c="-37.705151,-68.033963"><t>Oil fields</t></pm>
+        <pm c="33.745489,-112.633630"><t>Triangular airfield</t></pm>
+        <pm c="52.597313,5.746308"><t>Artificial island with inner lake used as sludge dump</t></pm>
+        <pm c="36.151186,-5.349230"><t>Gibraltar Airport crossed by the only road connecting Gibraltar with Spain</t></pm>
+        <pm c="62.528200,113.992900"><t>World's Largest Diamond Mine</t></pm>
+        <pm c="-39.257524,174.054432"><t>Egmont National Park around volcano</t></pm>
+        <pm c="50.813692,-2.474735"><t>Cerne Abbas Giant geoglyph</t></pm>
+        <pm c="27.982264,45.544449"><t>King Khalid Military City</t></pm>
+        <pm c="18.344167,-66.752778"><t>Largest single-aperture telescope</t></pm>
+        <pm c="31.109596,35.431519"><t>Dead Sea evaporation pans</t></pm>
+        <pm c="51.679156,7.376262"><t>One of the oldest water bridges</t></pm>
+        <pm c="38.528932,-76.566685"><t>Waste water treatment plant</t></pm>
+        <pm c="34.564018,135.487292"><t>Largest ancient keyhole-shaped tomb</t></pm>
+        <pm c="36.782449,-103.969937"><t>Capulin Volcano National Monument</t></pm>
+        <pm c="50.894915,4.341510"><t>Atomium</t></pm>
+        <pm c="38.266029,105.952935"><t>Military terrain model </t></pm>
+        <pm c="33.209974,-111.876320"><t>Sun Lakes retirement community</t></pm>
+        <pm c="-18.529225,-70.250020"><t>Massive Coca-Cola logo</t></pm>
+        <pm c="28.627150,-80.620858"><t>Launch pad in Kennedy Space Center</t></pm>
+        <pm c="55.414281,10.462279"><t>The Sun as a Face</t></pm>
+        <pm c="42.902817,130.223533"><t>Broken bridge between China and North Korea</t></pm>
+        <pm c="-15.914010,136.662377"><t>McArthur River delta</t></pm>
+        <pm c="51.415705,-1.857408"><t>Silbury Hill, largest European man-made mound</t></pm>
+        <pm c="50.246189,19.416561"><t>Giant arrow pointing north</t></pm>
+        <pm c="39.916470,116.390788"><t>Forbidden City</t></pm>
+        <pm c="33.418005,-86.620342"><t>Guitar-shaped estate</t></pm>
+        <pm c="59.523910,30.337629"><t>Hidden storage facility</t></pm>
+        <pm c="40.656714,-73.794125"><t>JFK taxi depot</t></pm>
+        <pm c="50.844084,-0.172158"><t>Fingerprint maze</t></pm>
+        <pm c="40.327212,17.826756"><t>The Nardò Ring</t></pm>
+        <pm c="41.151525,-100.818377"><t>World's largest rail classfication yard</t></pm>
+        <pm c="47.044863,32.197565"><t>Remains of Soviet antennas</t></pm>
+        <pm c="19.259528,-98.942104"><t>Xico crater</t></pm>
+        <pm c="52.387678,9.696667"><t>The Great Garden, part of Herrenhausen Gardens</t></pm>
+        <pm c="40.821070,14.426218"><t>Mount Vesuvius cone</t></pm>
+        <pm c="41.830696,-79.010100"><t>Seneca Pumped Storage Generating Station</t></pm>
+        <pm c="51.482373,-3.181189"><t>Cardiff Castle</t></pm>
+        <pm c="52.497569,6.449796"><t>Fish-shaped fen</t></pm>
+        <pm c="51.249157,0.630004"><t>Leeds Castle</t></pm>
+        <pm c="40.225193,-75.586856"><t>Limerick Nuclear Power Plant</t></pm>
+        <pm c="11.553284,162.347646"><t>Nuclear tests craters</t></pm>
+        <pm c="45.905471,13.310059"><t>Fortress Town of Palmanova</t></pm>
+        <pm c="52.005556,5.487807"><t>Lonely Oak</t></pm>
+        <pm c="52.631174,-2.512051"><t>Coal-fired power station</t></pm>
+        <pm c="28.452595,-81.703262"><t>Mikey Forest</t></pm>
+        <pm c="51.899162,-2.124356"><t>Government Communications Headquarters</t></pm>
+        <pm c="-12.079595,-45.009977"><t>Barreiras Airport</t></pm>
+        <pm c="36.798690,-77.486380"><t>Greensville Correctional Center</t></pm>
+        <pm c="44.525082,-110.838189"><t>Grand Prismatic Spring</t></pm>
+        <pm c="52.243601,5.384942"><t>Cemetery De Akker</t></pm>
+        <pm c="39.954222,101.834057"><t>Lake in desert</t></pm>
+        <pm c="-33.867557,-63.984512"><t>Giant guitar</t></pm>
+        <pm c="53.645973,-0.253068" s="new"><t>Oil refinery</t></pm>
+<!--        
+        <pm c="" s="new"><t></t></pm>
+1.11 Man-shaped lake in Brazil - http://go.planitoapp.com/#world=Earth&lat=-21.805283&lon=-49.089858&view=0.003762
+2.11 Oil fields in Argentina - http://go.planitoapp.com/#world=Earth&lat=-37.705151&lon=-68.033963&view=0.068243
+3.11 Triangular airfield in US - http://go.planitoapp.com/#world=Earth&lat=33.745489&lon=-112.633630&view=0.030986
+4.11 Artificial island with inner lake used as sludge dump in Netherlands - http://go.planitoapp.com/#world=Earth&lat=52.597313&lon=5.746308&view=0.056962
+5.11 Gibraltar Airport crossed by the only road connecting Gibraltar with Spain - http://go.planitoapp.com/#world=Earth&lat=36.151186&lon=-5.349230&view=0.023950
+6.11 World's Largest Diamond Mine in Russia - http://go.planitoapp.com/#world=Earth&lat=62.528200&lon=113.992900&view=0.033452
+7.11 Almost round Egmont National Park around volcano in New Zealand - http://go.planitoapp.com/#world=Earth&lat=-39.257524&lon=174.054432&view=0.628463
+8.11 Cerne Abbas Giant - geoglyph in England - http://go.planitoapp.com/#world=Earth&lat=50.813692&lon=-2.474735&view=0.002500
+9.11 King Khalid Military City in northeastern Saudi Arabia - http://go.planitoapp.com/#world=Earth&lat=27.982264&lon=45.544449&view=0.049825
+10.11 Largest single-aperture telescope at Arecibo Observatory in Puerto Rico - http://go.planitoapp.com/#world=Earth&lat=18.344167&lon=-66.752778&view=0.015167
+11.11 Dead Sea evaporation pans - http://go.planitoapp.com/#world=Earth&lat=31.109596&lon=35.431519&view=0.587867
+12.11 One of the oldest water bridges in Germany - http://go.planitoapp.com/#world=Earth&lat=51.679156&lon=7.376262&view=0.006301
+13.11 Waste water treatment plant in US - http://go.planitoapp.com/#world=Earth&lat=38.528932&lon=-76.566685&view=0.006972
+14.11 Largest ancient keyhole-shaped tomb in Japan - http://go.planitoapp.com/#world=Earth&lat=34.564018&lon=135.487292&view=0.021717
+15.11 Capulin Volcano National Monument in US - http://go.planitoapp.com/#world=Earth&lat=36.782449&lon=-103.969937&view=0.033234
+16.11 Atomium in Brussels, Belgium - http://go.planitoapp.com/#world=Earth&lat=50.894915&lon=4.341510&view=0.007940
+17.11 Military terrain model in China - http://go.planitoapp.com/#world=Earth&lat=38.266029&lon=105.952935&view=0.019751
+18.11 Sun Lakes retirement community in US - http://go.planitoapp.com/#world=Earth&lat=33.209974&lon=-111.876320&view=0.032230
+19.11 Massive Coca-Cola logo in Chile - http://go.planitoapp.com/#world=Earth&lat=-18.529225&lon=-70.250020&view=0.002630
+20.11 Launch pad in Kennedy Space Center, US - http://go.planitoapp.com/#world=Earth&lat=28.627150&lon=-80.620858&view=0.017431
+21.11 "The Sun as a Face" in Denmark - http://go.planitoapp.com/#goto/world=Earth&lat=55.414281&lon=10.462279&view=0.010477
+22.11 Broken bridge between China and North Korea - http://go.planitoapp.com/#world=Earth&lat=42.902817&lon=130.223533&view=0.010114
+23.11 McArthur River delta in Australia - http://go.planitoapp.com/#world=Earth&lat=-15.914010&lon=136.662377&view=0.099306
+24.11 Silbury Hill, largest European man-made mound in England - http://go.planitoapp.com/#world=Earth&lat=51.415705&lon=-1.857408&view=0.011441
+25.11 Giant arrow pointing north in Poland - http://go.planitoapp.com/#world=Earth&lat=50.246189&lon=19.416561&view=0.015073
+26.11 Firbidden City in Beijing, China - http://go.planitoapp.com/#world=Earth&lat=39.916470&lon=116.390788&view=0.023184
+27.11 Guitar-shaped estate in US - http://go.planitoapp.com/#world=Earth&lat=33.418005&lon=-86.620342&view=0.004692
+28.11 Hidden storage facility in Russia - http://go.planitoapp.com/#world=Earth&lat=59.523910&lon=30.337629&view=0.042232
+29.11 JFK taxi depot in New York, US - http://go.planitoapp.com/#world=Earth&lat=40.656714&lon=-73.794125&view=0.003603
+30.11 Fingerprint maze in England - http://go.planitoapp.com/#world=Earth&lat=50.844084&lon=-0.172158&view=0.002830
+1.12 The NardÚ Ring - http://go.planitoapp.com/#world=Earth&lat=40.327212&lon=17.826756&view=0.099326
+6.12 World's largest rail classfication yard in US - http://go.planitoapp.com/#world=Earth&lat=41.151525&lon=-100.818377&view=0.011425
+7.12 Remains of Soviet antennas in Ukraine - http://go.planitoapp.com/#world=Earth&lat=47.044863&lon=32.197565&view=0.006455
+8.12 Xico crater in Mexico - http://go.planitoapp.com/#world=Earth&lat=19.259528&lon=-98.942104&view=0.026348
+9.12 The Great Garden, part of Herrenhausen Gardens in Hanover, Germany - http://go.planitoapp.com/#world=Earth&lat=52.387678&lon=9.696667&view=0.025428
+10.12 Mount Vesuvius cone - http://go.planitoapp.com/#world=Earth&lat=40.821070&lon=14.426218&view=0.061179
+11.12 Reservoir of Seneca Pumped Storage Generating Station in US - http://go.planitoapp.com/#world=Earth&lat=41.830696&lon=-79.010100&view=0.024762
+12.12 Cardiff Castle in Wales - http://go.planitoapp.com/#world=Earth&lat=51.482373&lon=-3.181189&view=0.006224
+13.12 Fish-shaped fen in Netherlands - http://go.planitoapp.com/#world=Earth&lat=52.497569&lon=6.449796&view=0.008363
+14.12 Leeds Castle in England - http://go.planitoapp.com/#world=Earth&lat=51.249157&lon=0.630004&view=0.007203
+15.12 Limerick Nuclear Power Plant in US - http://go.planitoapp.com/#world=Earth&lat=40.225193&lon=-75.586856&view=0.025390
+16.12 Nuclear test craters on Eniwetok atoll - planito://goto/world=Earth&lat=11.553284&lon=162.347646&view=0.010722
+17.12 Fortress Town of Palmanova in Italy - http://go.planitoapp.com/#world=Earth&lat=45.905471&lon=13.310059&view=0.041249
+18.12 Lonely Oak in Netherlands - http://go.planitoapp.com/#world=Earth&lat=52.005556&lon=5.487807&view=0.006774
+19.12 Coal-fired power station in England - http://go.planitoapp.com/#world=Earth&lat=52.631174&lon=-2.512051&view=0.019781
+20.12 Mikey Forest in US - http://go.planitoapp.com/#world=Earth&lat=28.452595&lon=-81.703262&view=0.014142
+21.12 Government Communications Headquarters in England - http://go.planitoapp.com/#world=Earth&lat=51.899162&lon=-2.124356&view=0.012199
+22.12 Barreiras Airport in Brazil - planito://goto/world=Earth&lat=-12.079595&lon=-45.009977&view=0.035913
+23.12 Greensville Correctional Center in US - planito://goto/world=Earth&lat=36.798690&lon=-77.486380&view=0.024071
+24.12 Grand Prismatic Spring in US - http://go.planitoapp.com/#world=Earth&lat=44.525082&lon=-110.838189&view=0.008934
+25.12 Cemetery De Akker in Netherlands - http://go.planitoapp.com/#world=Earth&lat=52.243601&lon=5.384942&view=0.009702
+26.12 Lake in desert in Mongolia - http://go.planitoapp.com/#world=Earth&lat=39.954222&lon=101.834057&view=0.036928
+27.12 Giant guitar in Argentina - http://go.planitoapp.com/#world=Earth&lat=-33.867557&lon=-63.984512&view=0.015038
+28.12 Oil refinery in England - http://go.planitoapp.com/#world=Earth&lat=53.645973&lon=-0.253068&view=0.035873 
+-->
+</features>
