@@ -1,4 +1,4 @@
-= Planito =
+# Planito #
 
 Planito is your browser for planet Earth (and others). It is lightweight yet powerful and highly extensible online and offline multi-layered viewer for aerial imagery, maps, placemarks and other geospatial data layers for Earth, Moon and other planets.
 
