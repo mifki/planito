@@ -1516,6 +1516,10 @@
 				GCC_PREFIX_HEADER = "Planito/Planito-Prefix.pch";
 				INFOPLIST_FILE = "Planito/Planito-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = (
+					"-weak_framework",
+					3DconnexionClient,
+				);
 				PLANITO_DATASOURCE = "http://ds.planitoapp.com/_datasource-{LANG}.xml.gz";
 				PLIST_FILE_OUTPUT_FORMAT = binary;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1559,6 +1563,10 @@
 				GCC_PREFIX_HEADER = "Planito/Planito-Prefix.pch";
 				INFOPLIST_FILE = "Planito/Planito-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = (
+					"-weak_framework",
+					3DconnexionClient,
+				);
 				PLANITO_DATASOURCE = "http://ds.planitoapp.com/_datasource_demo-{LANG}.xml.gz";
 				PLIST_FILE_OUTPUT_FORMAT = binary;
 				PRODUCT_NAME = "$(TARGET_NAME) Demo";
@@ -1602,6 +1610,10 @@
 				GCC_PREFIX_HEADER = "Planito/Planito-Prefix.pch";
 				INFOPLIST_FILE = "Planito/Planito-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = (
+					"-weak_framework",
+					3DconnexionClient,
+				);
 				PLANITO_DATASOURCE = "http://ds.planitoapp.com/_datasource-{LANG}.xml";
 				PLIST_FILE_OUTPUT_FORMAT = binary;
 				PRODUCT_NAME = "$(TARGET_NAME)";
