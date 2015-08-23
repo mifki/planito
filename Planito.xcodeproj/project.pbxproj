@@ -45,7 +45,7 @@
 		5841890F1A0300FD001946B6 /* INWindowBackgroundView+CoreUIRendering.m in Sources */ = {isa = PBXBuildFile; fileRef = 584189021A0300BE001946B6 /* INWindowBackgroundView+CoreUIRendering.m */; };
 		584189111A030121001946B6 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 584189101A030121001946B6 /* Carbon.framework */; };
 		584189121A03012E001946B6 /* INAppStoreWindowSwizzling.c in Sources */ = {isa = PBXBuildFile; fileRef = 584188FF1A0300BE001946B6 /* INAppStoreWindowSwizzling.c */; };
-		5841891C1A03036B001946B6 /* 3DconnexionClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5841891B1A03036B001946B6 /* 3DconnexionClient.framework */; };
+		5841891C1A03036B001946B6 /* 3DconnexionClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5841891B1A03036B001946B6 /* 3DconnexionClient.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		5849F37B14254AB600261B69 /* PlanitoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B6490313E3522800801805 /* PlanitoAppDelegate.m */; };
 		5849F385142550B500261B69 /* BookmarkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5849F384142550B500261B69 /* BookmarkManager.m */; };
 		5849F38814266BD300261B69 /* PlanitoWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5849F38714266BD100261B69 /* PlanitoWindowController.m */; };
@@ -1098,11 +1098,14 @@
 		58B648E313E3522400801805 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0610;
+				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = mifki;
 				TargetAttributes = {
 					584189131A0302B7001946B6 = {
 						CreatedOnToolsVersion = 6.1;
+					};
+					58B648EB13E3522700801805 = {
+						DevelopmentTeam = 7NL467Q9V9;
 					};
 				};
 			};
@@ -1202,7 +1205,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "cd \"${PROJECT_DIR}\"\n\nmkdir dmg\n\ncp -R \"${TARGET_BUILD_DIR}/Planito.app\" \"dmg\"\ncp *.webloc \"dmg\"\nSetFile -a E dmg/*.webloc\n                 \nstrip \"dmg/Planito.app/Contents/MacOS/Planito\"\n                 \nVER=`/usr/libexec/PlistBuddy -c \"Print :CFBundleShortVersionString\" \"dmg/Planito.app/Contents/Info.plist\"`\n                 \n#Now build DMG\n                 \nhdiutil detach \"/Volumes/Planito\"\nrm -f \"Planito-$VER.dmg\"\nhdiutil create \"Planito-$VER.dmg\" -ov -volname \"Planito\" -fs HFS+ -srcfolder \"dmg\"\nhdiutil attach \"Planito-$VER.dmg\"\nbless \"/Volumes/Planito\" --openfolder \"/Volumes/Planito\"\nhdiutil detach \"/Volumes/Planito\"\n                 \nrm -rf \"dmg\"\n";
+			shellScript = "cd \"${PROJECT_DIR}\"\n\nmkdir dmg\n\ncp -R \"${TARGET_BUILD_DIR}/Planito.app\" \"dmg\"\ncp *.webloc \"dmg\"\nSetFile -a E dmg/*.webloc\n                                  \nVER=`/usr/libexec/PlistBuddy -c \"Print :CFBundleShortVersionString\" \"dmg/Planito.app/Contents/Info.plist\"`\n                 \n#Now build DMG\n                 \nhdiutil detach \"/Volumes/Planito\"\nrm -f \"Planito-$VER.dmg\"\nhdiutil create \"Planito-$VER.dmg\" -ov -volname \"Planito\" -fs HFS+ -srcfolder \"dmg\"\nhdiutil attach \"Planito-$VER.dmg\"\nbless \"/Volumes/Planito\" --openfolder \"/Volumes/Planito\"\nhdiutil detach \"/Volumes/Planito\"\n                 \nrm -rf \"dmg\"\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -1466,13 +1469,6 @@
 			};
 			name = Development;
 		};
-		584189161A0302B7001946B6 /* Demo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Demo;
-		};
 		584189171A0302B7001946B6 /* Distribution */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1484,7 +1480,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD)";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEPLOYMENT_POSTPROCESSING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -1506,6 +1501,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1519,58 +1515,15 @@
 				PLANITO_DATASOURCE = "http://ds.planitoapp.com/_datasource-{LANG}.xml.gz";
 				PLIST_FILE_OUTPUT_FORMAT = binary;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Distribution;
-		};
-		58AB7BF514CCF12100EAE9B7 /* Demo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD)";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEPLOYMENT_POSTPROCESSING = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
-				GCC_ENABLE_SSE3_EXTENSIONS = YES;
-				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
-				GCC_OPTIMIZATION_LEVEL = 3;
-				GCC_VERSION = "";
-				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
-				SDKROOT = macosx;
-				SEPARATE_STRIP = YES;
-			};
-			name = Demo;
-		};
-		58AB7BF614CCF12100EAE9B7 /* Demo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = YES;
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)",
-					"$(PROJECT_DIR)/Planito",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Planito/Planito-Prefix.pch";
-				INFOPLIST_FILE = "Planito/Planito-Info.plist";
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
-				PLANITO_DATASOURCE = "http://ds.planitoapp.com/_datasource_demo-{LANG}.xml.gz";
-				PLIST_FILE_OUTPUT_FORMAT = binary;
-				PRODUCT_NAME = "$(TARGET_NAME) Demo";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Demo;
 		};
 		58B6490913E3522900801805 /* Development */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -1592,6 +1545,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1605,6 +1559,7 @@
 				PLANITO_DATASOURCE = "http://ds.planitoapp.com/_datasource-{LANG}.xml";
 				PLIST_FILE_OUTPUT_FORMAT = binary;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Development;
@@ -1616,16 +1571,15 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				584189151A0302B7001946B6 /* Development */,
-				584189161A0302B7001946B6 /* Demo */,
 				584189171A0302B7001946B6 /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
 		};
 		58B648E613E3522400801805 /* Build configuration list for PBXProject "Planito" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				58B6490913E3522900801805 /* Development */,
-				58AB7BF514CCF12100EAE9B7 /* Demo */,
 				58AB7BF214CCF10F00EAE9B7 /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -1635,7 +1589,6 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				58B6490C13E3522900801805 /* Development */,
-				58AB7BF614CCF12100EAE9B7 /* Demo */,
 				58AB7BF314CCF10F00EAE9B7 /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
